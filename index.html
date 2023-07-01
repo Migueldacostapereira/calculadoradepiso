@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/Estilo.css" />
+    <script src="javascript/script.js" defer></script>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon" />
+    <title>Calculadora de Área de Valor de Piso</title>
+  </head>
+
+  <body>
+    <div class="pri">
+      <h3 class="titulo">Calculadora de Área de Valor de Piso</h3>
+      <h1 class="nome">Nome</h1>
+      <input class="input" id="nome" type="text" placeholder="Digite" />
+      <input id="orç" type="number" placeholder="Digite" />
+      <input id="lar" type="number" placeholder="Digite" />
+      <input id="com" type="number" placeholder="Digite" />
+      <input id="pis" type="number" placeholder="Digite" />
+      <input id="arg" type="number" placeholder="Digite" />
+
+      <h1 class="orçamento">Orçamento:</h1>
+      <h1 class="largura">Largura:</h1>
+      <h1 class="comprimento">Comprimento:</h1>
+      <h1 class="piso">Piso R$:</h1>
+      <h1 class="argamassa">Argamassa R$:</h1>
+
+      <button onclick="calcular()">Calcular</button>
+      <button onclick="window.location.reload()">Limpar</button>
+
+      <h1>Área: m²</h1>
+      <h1>Argamassa Unidade:</h1>
+      <h1>Piso: R$</h1>
+      <h1>Argamassa: R$</h1>
+      <h1>Total da compra: R$</h1>
+      <h1>Resposta:</h1>
+
+      <span class="span1" id="are"></span>
+      <span class="span2" id="uni"></span>
+      <span class="span3" id="respis"></span>
+      <span class="span4" id="resarg"></span>
+      <span class="span5" id="total"></span>
+      <span class="span6" id="res"></span>
+    </div>
+  </body>
+</html>
