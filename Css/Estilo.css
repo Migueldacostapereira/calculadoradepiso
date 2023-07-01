@@ -1,15 +1,15 @@
 body {
   margin: auto;
   padding: 0;
-  background-color: #11007e;
+  background-image: url(/imagens/body.png);
 }
 .pri {
   width: 360px;
   height: 640px;
-  background-color: #410ea3;
+  background-image: url(/imagens/background.png);
   margin: auto;
-  color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
 }
 .titulo {
   margin-left: 30px;
